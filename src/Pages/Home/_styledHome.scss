@@ -1,0 +1,22 @@
+.home-wrapper {
+  background: rgba(255, 0, 0, 0.089);
+  min-height: 100vh;
+  .section-one {
+    .image-slider-container {
+      display: flex;
+      .image-wrapper {
+        height: 90vh;
+        width: 100vw;
+        .img-slider {
+          min-width: 100%;
+          min-height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .section-two {
+    background-color: blue;
+    height: 60vh;
+  }
+}

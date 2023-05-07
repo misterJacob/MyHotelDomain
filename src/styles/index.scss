@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "../components/Header/styledHeader";
+@import"../Pages/Home/styledHome";
+
+
+
+
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#root{
+        width: 100vw;
+    min-height: 100vh;
+
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

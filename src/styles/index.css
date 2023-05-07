@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.header-wrapper {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 4rem;
+  position: fixed;
+}
+.header-wrapper .header-logo {
+  font-family: "Pacifico", cursive;
+  color: rgb(0, 0, 0);
+}
+.header-wrapper .navigation a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: rgb(0, 0, 0);
+}
+.header-wrapper .navigation a .underscore {
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  border-radius: 50%;
+}
+.header-wrapper .navigation a.active {
+  opacity: 0.5;
+}
+.header-wrapper .navigation a.active .underscore {
+  background-color: rgba(73, 0, 0, 0.589);
+}
+
+.home-wrapper {
+  background: rgba(255, 0, 0, 0.089);
+  min-height: 100vh;
+}
+.home-wrapper .section-one .image-slider-container {
+  display: flex;
+}
+.home-wrapper .section-one .image-slider-container .image-wrapper {
+  height: 90vh;
+  width: 100vw;
+}
+.home-wrapper .section-one .image-slider-container .image-wrapper .img-slider {
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home-wrapper .section-two {
+  background-color: blue;
+  height: 60vh;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */
